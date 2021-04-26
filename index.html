@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Covid Help</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fonts -->
+    
+    <!-- Custom CSS -->
+    <link rel = "stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container text-center">
+        <h5 class="mx-auto">Do you provide resources? Fill up <a href="#">THIS</a> Google Form</h5>
+      </div>
+    </nav>
+    <div class="container pt-5 mt-5">
+      <div class="row mx-0">
+        <div class="col-12">
+          <h3 class="mb-5">Find essential COVID resources</h3>
+          <form action="" class="mb-5">
+            <h5>Resource</h5>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="bed" value="bed">
+              <label class="form-check-label" for="bed">Hospital Beds</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="oxygen" value="oxygen">
+              <label class="form-check-label" for="oxygen">Oxygen</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="plasme" value="plasme">
+              <label class="form-check-label" for="plasme">Plasma Donor</label>
+            </div>
+            <div class="form-check form-check-inline mb-4">
+              <input class="form-check-input" type="checkbox" id="medicine" value="medicine">
+              <label class="form-check-label" for="medicine">Medicines</label>
+            </div>
+            <h5>Location</h5>
+            <div class="form-row">
+              <div class="col-12 col-lg-6">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option value="" selected>Choose State</option>
+                  <option value="AP">Andhra Pradesh</option>
+                  <option value="MH">Maharashtra</option>
+                  <option value="JH">Jharkhand</option>
+                  <option value="DL">Delhi</option>
+                  <option value="WB">West Bengal</option>
+                </select>
+              </div>
+              <div class="col-12 col-lg-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+            </div>
+          </form>
+          <h3>Results</h3>
+          <div class="card w-100 mb-3">
+            <div class="card-header">Result1</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Location</li>
+              <li class="list-group-item">Contact Number</li>
+              <li class="list-group-item">List of resources</li>
+              <li class="list-group-item">Verified / Unverified</li>
+            </ul>
+          </div>
+          <div class="card w-100 mb-3">
+            <div class="card-header">Result1</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Location</li>
+              <li class="list-group-item">Contact Number</li>
+              <li class="list-group-item">List of resources</li>
+              <li class="list-group-item">Verified / Unverified</li>
+            </ul>
+          </div>
+          <h5>Sorry no matches found</h5>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
